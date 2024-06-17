@@ -141,7 +141,7 @@ def process_source_code(dir_path):
 
 # Define Gradio interface
 with gr.Blocks() as demo:
-    gr.Markdown("# Douglas, the Code Mentor")
+    gr.Markdown("# Satyuki, the Code Mentor")
     dir_path = gr.Textbox(label="Source code root directory", placeholder="Enter the path to the root folder of your source code.")
     process_button = gr.Button("Process Code Base")
     output_text = gr.Textbox(label="")
